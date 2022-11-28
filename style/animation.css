@@ -1,0 +1,19 @@
+.reveal {
+    position: relative;
+    transform: translateY(100px);
+    opacity: 0;
+    transition: 1s all ease;
+  }
+  
+  .reveal.active {
+    transform: translateY(0);
+    opacity: 1;
+  }
+
+nav ul a:hover,
+nav ul a.active {
+    color: #ffc107;
+    transition: 0.2s ease-out;
+    border-bottom: 2px solid  #ffc107;
+   
+  }
